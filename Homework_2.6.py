@@ -8,14 +8,8 @@ new_dict = {}
 my_list = []
 for i in range(3):
     name.append(input(f"Введите название товара № {i + 1}: "))
-print(name)
-for i in range(3):
     price.append(int(input(f"Введите цену товара № {i + 1}: ")))
-print(price)
-for i in range(3):
     number.append(int(input(f"Введите количество товаров № {i + 1}: ")))
-print(number)
-for i in range(3):
     ed.append(input(f"Введите единицу измерения для товара № {i + 1}: "))
 print(ed)
 for j in range(3):
