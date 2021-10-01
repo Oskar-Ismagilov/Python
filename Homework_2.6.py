@@ -27,9 +27,9 @@ final_list.append(first_product)
 final_list.append(second_product)
 final_list.append(third_product)
 print(final_list)
-new_dict.update({"название": name,
+new_dict.update({"название": list(set(name)),
                  "цена": price,
                  "количество": number,
-                 "ед": ed
+                 "ед": list(set(ed))
                  })
 print(new_dict)
