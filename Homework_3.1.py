@@ -1,6 +1,6 @@
 def new_func():
-    num1 = int(input("Введите число №1: "))
-    num2 = int(input("Введите число №2: "))
+    num1 = float(input("Введите число №1: "))
+    num2 = float(input("Введите число №2: "))
     try:
         num1 / num2
     except ZeroDivisionError:

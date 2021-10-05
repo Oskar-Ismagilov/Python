@@ -1,9 +1,16 @@
-def user(**kwargs):
-    return kwargs
+def user(name, surname, date, city, mail, phone):
+    print(f'{name} {surname} {date} {city} {mail} {phone}')
 
 
-my_str = str(user(name="Александр", surname="Пушкин", date="06.06.1799 г.", city="Москва", mail="alex@pushkin.ru", phone="12345678987"))
-print(my_str)
+n = input("Введите имя: ")
+s = input("Введите фамилию: ")
+d = input("Введите дату рождения: ")
+c = input("Введите город: ")
+m = input("Введите мейл: ")
+p = input("Введите номер телефона: ")
+
+user(name=n, surname=s, date=d, city=c, mail=m, phone=p)
+
 
 
 
