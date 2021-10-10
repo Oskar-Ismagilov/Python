@@ -13,3 +13,4 @@ with open('HW_5.5.txt', 'w+') as file:
     for num in new_content:
         sum_num += int(num)
     print(f'Сумма чисел = {sum_num}')
+    
