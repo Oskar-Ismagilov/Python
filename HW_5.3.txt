@@ -1,0 +1,6 @@
+Ivanov 15000
+Petrov 17000
+Sidorov 35000
+Deputatov 500000
+Vrachov 19000
+Uchitelev 18000

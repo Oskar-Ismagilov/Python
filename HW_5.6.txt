@@ -1,0 +1,5 @@
+Inform: 100(l) 50(pr) 20(lab)
+Physics: 30(l) - 10(lab)
+Workout: - 30(pr)
+Chemistry: 45(l)
+Music: - 65(pr)
